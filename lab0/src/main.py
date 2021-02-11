@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-from numpy import matrix as np_matrix
+from numpy import matrix, savetxt
 from random import SystemRandom
+from os import getcwd, mkdir
+from os.path import exists
 from PyQt5 import uic
 from PyQt5.QtWidgets import (
     QMessageBox, QApplication,
@@ -37,7 +39,7 @@ class Matrix:
 
     @property
     def numpy_matrix(self):
-        return np_matrix(self.__matrix)
+        return matrix(self.__matrix)
 
     @property
     def x_size(self):
@@ -54,6 +56,21 @@ class Matrix:
     @y_size.setter
     def y_size(self, new_y):
         self.__y = new_y
+
+
+class MessageWindow(QMessageBox):
+    '''Представляет собой окно с текстом'''
+
+    def __init__(self, text):
+        '''text - текст для отображения'''
+
+        super().__init__()
+
+        self.setIcon(QMessageBox.Information)
+        self.setText('Information')
+        self.setInformativeText(text)
+        self.setWindowTitle('Information')
+        self.exec()
 
 
 class ErrorWindow(QMessageBox):
@@ -89,17 +106,40 @@ class MainWindow(QMainWindow):
                 self.K_input.text()), int(self.M_input.text())
         except ValueError:
             ErrorWindow('Введеные значения не являются числами')
+            exit(0)
 
         self.first_matrix.fill()
         self.second_matrix.fill()
 
-        print(self.first_matrix.numpy_matrix)
-        print(self.second_matrix.numpy_matrix)
-        
-        print(
-            self.first_matrix.numpy_matrix.dot(
-                self.second_matrix.numpy_matrix)
+        self.first_matrix = self.first_matrix.numpy_matrix
+        self.second_matrix = self.second_matrix.numpy_matrix
+
+        result_matrix = self.first_matrix.dot(
+            self.second_matrix
         )
+
+        path = getcwd()
+        if not exists(f'{path}/files'):
+            mkdir(f'{path}/files')
+
+        savetxt(
+            f'{path}/files/first_matrix.csv',
+            self.first_matrix,
+            delimiter=',',
+            fmt='%d')
+        savetxt(
+            f'{path}/files/second_matrix.csv',
+            self.second_matrix,
+            delimiter=',',
+            fmt='%d')
+        savetxt(
+            f'{path}/files/result_matrix.csv',
+            result_matrix,
+            delimiter=',',
+            fmt='%d')
+
+        MessageWindow('Дело сделано')
+        exit(0)
 
 
 if __name__ == '__main__':
