@@ -23,7 +23,8 @@ lab0
 │       │   *.svg
 
 └───src
-│   │   main.py 
+│   │   main.py
+│   │   requirements.txt
 │   └───interfaces - описание интерфейса на QML
 |       │   *.ui
 │   └───files - Вывод матриц в CSV

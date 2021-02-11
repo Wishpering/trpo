@@ -20,20 +20,21 @@ class Matrix:
       ------
     '''
 
-    def __init__(self, x=0, y=0):
+    def __init__(self, x=0, y=0, **kwargs):
         self.__x = x
         self.__y = y
 
         self.__matrix = []
 
+        self.generator = kwargs.get('generator') or SystemRandom()
+
     def fill(self):
-        generator = SystemRandom()
 
         for i in range(self.__x):
             tmp = []
 
             for j in range(self.__y):
-                tmp.append(generator.randint(0, 100))
+                tmp.append(self.generator.randint(0, 100))
 
             self.__matrix.append(tmp)
 
@@ -95,7 +96,14 @@ class MainWindow(QMainWindow):
         super().__init__()
         uic.loadUi('./interfaces/main_window.ui', self)
 
-        self.first_matrix, self.second_matrix = Matrix(), Matrix()
+        generator = SystemRandom()
+
+        self.first_matrix, self.second_matrix = Matrix(
+            generator=generator
+        ), Matrix(
+            generator=generator
+        )
+
         self.start_button.clicked.connect(self.start_button_handler)
 
     def start_button_handler(self):
