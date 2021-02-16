@@ -21,6 +21,12 @@ class Matrix:
     '''
 
     def __init__(self, x=0, y=0, **kwargs):
+        '''
+        x,y [int] - размер матрицы
+        **kwargs:
+                generator - Random generator
+        '''
+
         self.__x = x
         self.__y = y
 
@@ -29,6 +35,9 @@ class Matrix:
         self.generator = kwargs.get('generator') or SystemRandom()
 
     def fill(self):
+        '''
+        Заполнение матрицы случайными числами
+        '''
 
         for i in range(self.__x):
             tmp = []
@@ -39,23 +48,23 @@ class Matrix:
             self.__matrix.append(tmp)
 
     @property
-    def numpy_matrix(self):
+    def numpy_matrix(self) -> matrix:
         return matrix(self.__matrix)
 
     @property
-    def x_size(self):
+    def x_size(self) -> int:
         return self.__x
 
     @property
-    def y_size(self):
+    def y_size(self) -> int:
         return self.__y
 
     @x_size.setter
-    def x_size(self, new_x):
+    def x_size(self, new_x: int):
         self.__x = new_x
 
     @y_size.setter
-    def y_size(self, new_y):
+    def y_size(self, new_y: int):
         self.__y = new_y
 
 
@@ -107,6 +116,10 @@ class MainWindow(QMainWindow):
         self.start_button.clicked.connect(self.start_button_handler)
 
     def start_button_handler(self):
+        '''
+        Обработчик нажатия кнопки <<start>>
+        '''
+
         try:
             self.first_matrix.x_size, self.first_matrix.y_size = int(
                 self.N_input.text()), int(self.K_input.text())
