@@ -136,7 +136,7 @@ class Matrix(np.matrix):
         то возвращает исключение <<numpy.linalg.LinAlgError>>
         """
 
-        return np.linalg.inv(self.A)
+        return Matrix(np.linalg.inv(self.A))
 
     @property
     def trace(self):
@@ -154,7 +154,7 @@ class Matrix(np.matrix):
         if not isinstance(matrix, Matrix):
             raise TypeError('Вторая аргумент не является NumPy матрицой')
         else:
-            return np.multiply(self.A, matrix.A)
+            return Matrix(np.multiply(self.A, matrix.A))
 
     def mul_on_vector(self, vector):
         '''
@@ -167,9 +167,45 @@ class Matrix(np.matrix):
             if vector.len != len(self.A[0]):
                 raise ValueError('Не совпадает длина')
             else:
-                return f.dot(
-                    vec.numpy_repr
+                return Matrix(
+                    f.dot(
+                        vec.numpy_repr
+                    )
                 )
+
+
+class Scalar:
+    def __init__(self, data) -> None:
+        self.__data = data
+
+    def __str__(self) -> str:
+        return str(self.__data)
+
+    @property
+    def reverse(self):
+        '''
+        Обратное
+        '''
+
+        return Scalar(-self.__data)
+
+    def mod(self, m):
+        '''
+        Возведение в степень
+        '''
+
+        return Scalar(
+            self.__data ** m
+        )
+
+    def sqrt(self, m):
+        '''
+        Извлечение корня
+        '''
+
+        return Scalar(
+            self.__data ** (1 / m)
+        )
 
 
 if __name__ == '__main__':
@@ -177,6 +213,8 @@ if __name__ == '__main__':
     s = Matrix([[1, 2], [4, 5], [3, 6]])
     obr_matr = Matrix([[1, 2], [3, 4]])
     vec = Vector([1, 2, 3])
+    sc = Scalar(64)
+    sc_f = Scalar(2.0)
 
     # matrix on scalar
     # print(f * 2)
