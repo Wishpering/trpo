@@ -26,9 +26,6 @@
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
 \hypersetup{pdfstartview=FitH,  linkcolor=linkcolor, urlcolor=urlcolor, colorlinks=true}
 
-% Для включения PDF
-\usepackage{pdfpages}
-
 % Пакет отвечающий за листинги.
 \usepackage[outputdir=build]{minted} 
 \renewcommand\listingscaption{Листин}
@@ -146,7 +143,10 @@ $C[i][j] = \sum\limits_{i=0}^{k - 1} A[i][l]B[l][j]; i \in [0, n - 1]; j \in [0,
 \end{enumerate}
 
 Блок-схема программы:
-\includepdf[pages={1}]{include/exported_diag.pdf}
+\begin{figure}
+	\includegraphics[width=\textwidth]{include/exported_diag.pdf}
+	\caption{Блок-схема программы}
+\end{figure}
 
 \section{Проверка работы программы}
 Для проверки работоспособности программы запустим её со следующими параметрами - 
