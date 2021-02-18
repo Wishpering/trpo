@@ -1,3 +1,1221 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="346px" height="762px" viewBox="-0.5 -0.5 346 762" content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-02-11T16:13:34.171Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36&quot; etag=&quot;AEmtWbM6YDRvb-PdeNFU&quot; compressed=&quot;false&quot; version=&quot;14.3.1&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;z8kRQP9UYMDmIOPVPJTV&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"><defs/><g><path d="M 80 30 L 80 33.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 38.88 L 76.5 31.88 L 80 33.63 L 83.5 31.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><ellipse cx="80" cy="15" rx="30" ry="15" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 15px; margin-left: 51px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Начало</div></div></div></foreignObject><text x="80" y="19" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Начало</text></switch></g><path d="M 80 90 L 80 93.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 98.88 L 76.5 91.88 L 80 93.63 L 83.5 91.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="25" y="40" width="110" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 65px; margin-left: 26px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Инициализация <br />графического интерфейса</div></div></div></foreignObject><text x="80" y="69" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Инициализация...</text></switch></g><path d="M 80 160 L 80 163.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 168.88 L 76.5 161.88 L 80 163.63 L 83.5 161.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 20 160 L 40 100 L 140 100 L 120 160 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 130px; margin-left: 21px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Чтение ввода <br />пользователя</div></div></div></foreignObject><text x="80" y="134" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Чтение ввода...</text></switch></g><path d="M 160.5 225 L 199.63 225" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 204.88 225 L 197.88 228.5 L 199.63 225 L 197.88 221.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 80 280 L 80 303.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 308.88 L 76.5 301.88 L 80 303.63 L 83.5 301.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 80 170 L 160.5 225 L 80 280 L -0.5 225 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 159px; height: 1px; padding-top: 225px; margin-left: 1px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Введенные значения <br />это числа?</div></div></div></foreignObject><text x="80" y="229" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Введенные значения...</text></switch></g><rect x="36" y="280" width="40" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 290px; margin-left: 37px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Да</div></div></div></foreignObject><text x="56" y="294" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Да</text></switch></g><rect x="156" y="200" width="40" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 210px; margin-left: 157px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Нет</div></div></div></foreignObject><text x="176" y="214" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Нет</text></switch></g><path d="M 316 225 L 336 225 L 336 720 L 80 720 L 80 723.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 728.88 L 76.5 721.88 L 80 723.63 L 83.5 721.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="206" y="205" width="110" height="40" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 225px; margin-left: 207px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Окно с ошибкой о <br />неверном вводе</div></div></div></foreignObject><text x="261" y="229" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Окно с ошибкой о...</text></switch></g><path d="M 80 360 L 80 363.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 368.88 L 76.5 361.88 L 80 363.63 L 83.5 361.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="19.5" y="310" width="121" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 119px; height: 1px; padding-top: 335px; margin-left: 20px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Заполнение двух<br />матриц случайными числами</div></div></div></foreignObject><text x="80" y="339" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Заполнение двух...</text></switch></g><path d="M 80 410 L 80 413.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 418.88 L 76.5 411.88 L 80 413.63 L 83.5 411.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="25" y="370" width="110" height="40" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 390px; margin-left: 26px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Умножение <br />матриц</div></div></div></foreignObject><text x="80" y="394" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Умножение...</text></switch></g><path d="M 158 470 L 189.63 470" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 194.88 470 L 187.88 473.5 L 189.63 470 L 187.88 466.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 80 520 L 80 538.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 543.88 L 76.5 536.88 L 80 538.63 L 83.5 536.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 80 420 L 158 470 L 80 520 L 2 470 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</div></div></div></foreignObject><text x="80" y="474" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Папка для выгрузок существует?</text></switch></g><rect x="26" y="520" width="40" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 530px; margin-left: 27px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Да</div></div></div></foreignObject><text x="46" y="534" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Да</text></switch></g><rect x="146" y="440" width="40" height="20" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 450px; margin-left: 147px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Нет</div></div></div></foreignObject><text x="166" y="454" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Нет</text></switch></g><path d="M 251 490 L 251 530 L 80 530 L 80 538.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 543.88 L 76.5 536.88 L 80 538.63 L 83.5 536.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="196" y="450" width="110" height="40" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 470px; margin-left: 197px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Создание папки<br />для выгрузки</div></div></div></foreignObject><text x="251" y="474" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Создание папки...</text></switch></g><path d="M 80 585 L 80 593.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 598.88 L 76.5 591.88 L 80 593.63 L 83.5 591.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="25" y="545" width="110" height="40" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 565px; margin-left: 26px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Запись первой <br />матрицы в файл</div></div></div></foreignObject><text x="80" y="569" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Запись первой...</text></switch></g><path d="M 80 640 L 80 653.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 658.88 L 76.5 651.88 L 80 653.63 L 83.5 651.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="25" y="600" width="110" height="40" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 620px; margin-left: 26px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Запись второй <br />матрицы в файл</div></div></div></foreignObject><text x="80" y="624" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Запись второй...</text></switch></g><path d="M 80 710 L 80 723.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 80 728.88 L 76.5 721.88 L 80 723.63 L 83.5 721.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><rect x="20" y="660" width="120" height="50" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 685px; margin-left: 21px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Запись результирующей<br />матрицы в файл</div></div></div></foreignObject><text x="80" y="689" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Запись результирующей...</text></switch></g><ellipse cx="80" cy="745" rx="30" ry="15" fill="#ffffff" stroke="#000000" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 745px; margin-left: 51px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Конец</div></div></div></foreignObject><text x="80" y="749" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">Конец</text></switch></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text></a></switch></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="337.88632"
+   height="761"
+   viewBox="-0.5 -0.5 337.88632 761"
+   content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-02-11T16:13:34.171Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36&quot; etag=&quot;AEmtWbM6YDRvb-PdeNFU&quot; compressed=&quot;false&quot; version=&quot;14.3.1&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;z8kRQP9UYMDmIOPVPJTV&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg206"
+   sodipodi:docname="lab0_diag.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata210">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     id="namedview208"
+     showgrid="false"
+     inkscape:zoom="0.68355249"
+     inkscape:cx="325.08273"
+     inkscape:cy="510.12648"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g196"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     id="g196"
+     transform="translate(0.88631702)">
+    <text
+       xml:space="preserve"
+       style="font-size:12.652px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.948899"
+       x="28.339581"
+       y="544.1181"
+       id="text323-4"
+       transform="scale(0.94889877,1.0538532)"><tspan
+         sodipodi:role="line"
+         id="tspan321-4"
+         x="28.339581"
+         y="544.1181"
+         style="stroke-width:0.948899">матрицы в файл</tspan></text>
+    <path
+       d="m 80,30 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path4" />
+    <path
+       d="m 80,38.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path6" />
+    <ellipse
+       cx="80"
+       cy="15"
+       rx="30"
+       ry="15"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="ellipse8" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g14">
+      <switch
+         id="switch12">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 15px; margin-left: 51px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Начало</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80"
+           y="19"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text10">Начало</text>
+      </switch>
+    </g>
+    <path
+       d="m 80,90 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path16" />
+    <path
+       d="m 80,98.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path18" />
+    <rect
+       x="25"
+       y="40"
+       width="110"
+       height="50"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect20" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g26">
+      <switch
+         id="switch24">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 65px; margin-left: 26px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Инициализация <xhtml:br />
+графического интерфейса</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80.904312"
+           y="53.626801"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan842"
+             x="80.904312"
+             y="53.626801">Инициализация</tspan><tspan
+             sodipodi:role="line"
+             id="tspan844"
+             x="80.904312"
+             y="68.626801">графического</tspan><tspan
+             sodipodi:role="line"
+             id="tspan846"
+             x="80.904312"
+             y="83.626801">интерфейса</tspan></text>
+      </switch>
+    </g>
+    <path
+       d="m 80,160 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path28" />
+    <path
+       d="m 80,168.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path30" />
+    <path
+       d="m 20,160 20,-60 h 100 l -20,60 z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path32" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g38">
+      <switch
+         id="switch36">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 130px; margin-left: 21px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Чтение ввода <xhtml:br />
+пользователя</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="79.095734"
+           y="126.76555"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text34"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan838"
+             x="79.095734"
+             y="126.76555">Чтение ввода</tspan><tspan
+             sodipodi:role="line"
+             id="tspan840"
+             x="79.095734"
+             y="141.76555">пользователя</tspan></text>
+      </switch>
+    </g>
+    <path
+       d="m 160.5,225 h 39.13"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path40" />
+    <path
+       d="m 204.88,225 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path42" />
+    <path
+       d="m 80,280 v 23.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path44" />
+    <path
+       d="m 80,308.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path46" />
+    <path
+       d="M 80,170 160.5,225 80,280 -0.5,225 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path48" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g54">
+      <switch
+         id="switch52">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 159px; height: 1px; padding-top: 225px; margin-left: 1px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Введенные значения <xhtml:br />
+это числа?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80"
+           y="222.66985"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text50"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan834"
+             x="80"
+             y="222.66985">Введенные значения</tspan><tspan
+             sodipodi:role="line"
+             id="tspan836"
+             x="80"
+             y="237.66985">это числа?</tspan></text>
+      </switch>
+    </g>
+    <rect
+       x="36"
+       y="280"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect56" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g62">
+      <switch
+         id="switch60">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 290px; margin-left: 37px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Да</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="56"
+           y="294"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text58">Да</text>
+      </switch>
+    </g>
+    <rect
+       x="156"
+       y="200"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect64" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g70">
+      <switch
+         id="switch68">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 210px; margin-left: 157px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Нет</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="176"
+           y="214"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text66">Нет</text>
+      </switch>
+    </g>
+    <path
+       d="m 316,225 h 20 V 720 H 80 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path72" />
+    <path
+       d="m 80,728.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path74" />
+    <rect
+       x="206"
+       y="205"
+       width="110"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect76" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g82">
+      <switch
+         id="switch80">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 225px; margin-left: 207px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Окно с ошибкой о <xhtml:br />
+неверном вводе</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.90433"
+           y="222.21771"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text78"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan790"
+             x="261.90433"
+             y="222.21771">Окно с ошибкой о</tspan><tspan
+             sodipodi:role="line"
+             id="tspan792"
+             x="261.90433"
+             y="237.21771">неверном вводе</tspan></text>
+      </switch>
+    </g>
+    <path
+       d="m 80,360 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path84" />
+    <path
+       d="m 80,368.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path86" />
+    <rect
+       x="19.5"
+       y="310"
+       width="121"
+       height="50"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect88" />
+    <g
+       transform="translate(-0.04786564,-15.421032)"
+       id="g94">
+      <switch
+         id="switch92">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 119px; height: 1px; padding-top: 335px; margin-left: 20px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Заполнение двух<xhtml:br />
+матриц случайными числами</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80"
+           y="339"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text90"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan784"
+             x="80"
+             y="339">Заполнение двух</tspan><tspan
+             sodipodi:role="line"
+             id="tspan786"
+             x="80"
+             y="354">матриц случайными</tspan><tspan
+             sodipodi:role="line"
+             id="tspan788"
+             x="80"
+             y="369">числами</tspan></text>
+      </switch>
+    </g>
+    <path
+       d="m 80,410 v 3.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path96" />
+    <path
+       d="m 80,418.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path98" />
+    <rect
+       x="25"
+       y="370"
+       width="110"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect100" />
+    <path
+       d="m 158,470 h 31.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path108" />
+    <path
+       d="m 194.88,470 -7,3.5 1.75,-3.5 -1.75,-3.5 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path110" />
+    <path
+       d="m 80,520 v 18.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path112" />
+    <path
+       d="m 80,543.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path114" />
+    <path
+       d="M 80,420 158,470 80,520 2,470 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path116" />
+    <g
+       transform="translate(0.85644907,-15.421032)"
+       id="g122">
+      <switch
+         id="switch120">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80"
+           y="474"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118"><tspan
+             sodipodi:role="line"
+             id="tspan373"
+             x="80"
+             y="474">Папка для</tspan><tspan
+             sodipodi:role="line"
+             id="tspan375"
+             x="80"
+             y="489">выгрузок</tspan><tspan
+             sodipodi:role="line"
+             x="80"
+             y="504"
+             id="tspan377">существует?</tspan></text>
+      </switch>
+    </g>
+    <rect
+       x="26"
+       y="520"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect124" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g130">
+      <switch
+         id="switch128">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 530px; margin-left: 27px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Да</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="46"
+           y="534"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text126">Да</text>
+      </switch>
+    </g>
+    <rect
+       x="146"
+       y="440"
+       width="40"
+       height="20"
+       fill="none"
+       stroke="none"
+       pointer-events="all"
+       id="rect132" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g138">
+      <switch
+         id="switch136">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 450px; margin-left: 147px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Нет</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="166"
+           y="454"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text134">Нет</text>
+      </switch>
+    </g>
+    <path
+       d="m 251,490 v 40 H 80 v 8.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path140" />
+    <path
+       d="m 80,543.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path142" />
+    <rect
+       x="196"
+       y="450"
+       width="110"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect144" />
+    <path
+       d="m 80,585 v 8.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path152" />
+    <path
+       d="m 80,598.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path154" />
+    <rect
+       x="25"
+       y="545"
+       width="110"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect156" />
+    <path
+       d="m 80,640 v 13.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path164" />
+    <path
+       d="m 80,658.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path166" />
+    <rect
+       x="25"
+       y="600"
+       width="110"
+       height="40"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect168" />
+    <path
+       d="m 80,710 v 13.63"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="stroke"
+       id="path176" />
+    <path
+       d="m 80,728.88 -3.5,-7 3.5,1.75 3.5,-1.75 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path178" />
+    <rect
+       x="20"
+       y="660"
+       width="120"
+       height="50"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="rect180" />
+    <ellipse
+       cx="80"
+       cy="745"
+       rx="30"
+       ry="15"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="all"
+       id="ellipse188" />
+    <g
+       transform="translate(-0.5,-0.5)"
+       id="g194">
+      <switch
+         id="switch192">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 745px; margin-left: 51px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Конец</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="80"
+           y="749"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text190">Конец</text>
+      </switch>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="30.248699"
+       y="673.28516"
+       id="text214"><tspan
+         sodipodi:role="line"
+         id="tspan212"
+         x="30.248699"
+         y="673.28516"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
+       x="40.196056"
+       y="684.13684"
+       id="text218"><tspan
+         sodipodi:role="line"
+         id="tspan220"
+         x="40.196056"
+         y="684.13684"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="36.428112"
+       y="675.99811"
+       id="text247"><tspan
+         sodipodi:role="line"
+         id="tspan245"
+         x="36.428112"
+         y="675.99811"></tspan></text>
+    <g
+       transform="translate(-11.517777,75.820165)"
+       id="g122-6">
+      <switch
+         id="switch120-3">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+      </switch>
+    </g>
+    <g
+       transform="translate(3.553982,78.080928)"
+       id="g122-8">
+      <switch
+         id="switch120-5">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="-62.880253"
+           y="471.28711"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-7"><tspan
+             sodipodi:role="line"
+             x="-62.880253"
+             y="471.28711"
+             id="tspan492" /></text>
+        <text
+           xml:space="preserve"
+           style="font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal'"
+           x="-79.711929"
+           y="473.57513"
+           id="text498"><tspan
+             sodipodi:role="line"
+             id="tspan496"
+             x="-79.711929"
+             y="473.57513"> </tspan></text>
+      </switch>
+    </g>
+    <g
+       transform="translate(-180.32147,50.198175)"
+       id="g122-5">
+      <switch
+         id="switch120-9">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.31323"
+           y="509.72006"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-75"><tspan
+             sodipodi:role="line"
+             id="tspan375-8"
+             x="261.31323"
+             y="509.72006">Запись первой</tspan><tspan
+             sodipodi:role="line"
+             x="261.31323"
+             y="524.72009"
+             id="tspan377-8">матрицы в файл</tspan></text>
+      </switch>
+    </g>
+    <switch
+       id="switch120-9-3"
+       transform="translate(-181.99208,104.64333)">
+      <foreignObject
+         style="overflow: visible; text-align: left;"
+         pointer-events="none"
+         width="100%"
+         height="100%"
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+        <xhtml:div
+           style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+          <xhtml:div
+             style="box-sizing: border-box; font-size: 0; text-align: center; ">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+      <text
+         x="261.31323"
+         y="509.72006"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         id="text118-75-1"><tspan
+           sodipodi:role="line"
+           x="261.31323"
+           y="509.72006"
+           id="tspan377-8-9">Запись второй</tspan><tspan
+           sodipodi:role="line"
+           x="261.31323"
+           y="524.72009"
+           id="tspan590">матрицы в файл</tspan></text>
+      <switch
+         id="switch120-9-6"
+         transform="translate(11.153112,62.849253)">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.31323"
+           y="509.72006"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-75-4"><tspan
+             sodipodi:role="line"
+             id="tspan375-8-3"
+             x="261.31323"
+             y="509.72006">Запись</tspan><tspan
+             sodipodi:role="line"
+             x="261.31323"
+             y="524.72009"
+             id="tspan377-8-3">результирующейматрицы в файл</tspan></text>
+      </switch>
+    </switch>
+    <switch
+       id="switch120-9-3-3"
+       transform="translate(-180.93707,162.66965)">
+      <foreignObject
+         style="overflow: visible; text-align: left;"
+         pointer-events="none"
+         width="100%"
+         height="100%"
+         requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+        <xhtml:div
+           style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+          <xhtml:div
+             style="box-sizing: border-box; font-size: 0; text-align: center; ">
+            <xhtml:div
+               style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+      <text
+         x="261.31323"
+         y="509.72006"
+         fill="#000000"
+         font-family="Helvetica"
+         font-size="12px"
+         text-anchor="middle"
+         id="text118-75-1-8"><tspan
+           sodipodi:role="line"
+           x="261.31323"
+           y="509.72006"
+           id="tspan377-8-9-6">Запись</tspan><tspan
+           sodipodi:role="line"
+           x="261.31323"
+           y="524.72009"
+           id="tspan590-0">результирующей</tspan><tspan
+           sodipodi:role="line"
+           x="261.31323"
+           y="539.72009"
+           id="tspan666">матрицы в файл</tspan></text>
+      <switch
+         id="switch120-9-6-4"
+         transform="translate(11.153112,62.849253)">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.31323"
+           y="509.72006"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-75-4-8"><tspan
+             sodipodi:role="line"
+             id="tspan375-8-3-8"
+             x="261.31323"
+             y="509.72006">Запись</tspan><tspan
+             sodipodi:role="line"
+             x="261.31323"
+             y="524.72009"
+             id="tspan377-8-3-8">результирующейматрицы в файл</tspan></text>
+      </switch>
+    </switch>
+    <g
+       transform="translate(-10.023328,-44.114944)"
+       id="g122-5-5">
+      <switch
+         id="switch120-9-4">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.31323"
+           y="509.72006"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-75-0"><tspan
+             sodipodi:role="line"
+             x="261.31323"
+             y="509.72006"
+             id="tspan377-8-94">Создание папки</tspan><tspan
+             sodipodi:role="line"
+             x="261.31323"
+             y="524.72009"
+             id="tspan776">для выгрузок</tspan></text>
+      </switch>
+    </g>
+    <g
+       transform="translate(-181.4012,-124.14595)"
+       id="g122-5-5-6">
+      <switch
+         id="switch120-9-4-9">
+        <foreignObject
+           style="overflow: visible; text-align: left;"
+           pointer-events="none"
+           width="100%"
+           height="100%"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 154px; height: 1px; padding-top: 470px; margin-left: 3px;">
+            <xhtml:div
+               style="box-sizing: border-box; font-size: 0; text-align: center; ">
+              <xhtml:div
+                 style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Папка для выгрузок существует?</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="261.31323"
+           y="509.72006"
+           fill="#000000"
+           font-family="Helvetica"
+           font-size="12px"
+           text-anchor="middle"
+           id="text118-75-0-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000"><tspan
+             sodipodi:role="line"
+             id="tspan830"
+             x="261.31323"
+             y="509.72006">Умножение</tspan><tspan
+             sodipodi:role="line"
+             id="tspan832"
+             x="261.31323"
+             y="524.72009">матриц</tspan></text>
+      </switch>
+    </g>
+  </g>
+  <switch
+     id="switch204"
+     transform="translate(529.45518,24.945973)">
+    <g
+       requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+       id="g198" />
+    <a
+       transform="translate(0,-5)"
+       xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems"
+       target="_blank"
+       id="a202">
+      <text
+         text-anchor="middle"
+         font-size="10px"
+         x="50%"
+         y="100%"
+         id="text200">Viewer does not support full SVG 1.1</text>
+    </a>
+  </switch>
+</svg>
