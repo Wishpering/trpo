@@ -85,7 +85,7 @@ class Vector:
         if not isinstance(other, Vector):
             raise TypeError('Второй аргумент не является вектором')
         else:
-            return Vector(np.dot(self.__data, other.numpy_repr))
+            return np.dot(self.__data, other.numpy_repr)
 
     def vec_mul(self, other):
         '''
@@ -99,6 +99,31 @@ class Vector:
                 raise ValueError('Вектор не является трехмерным')
             else:
                 return Vector(np.cross(self.__data, other.numpy_repr))
+
+    def is_collen(self, second_vector):
+        if not isinstance(second_vector, Vector):
+            raise TypeError('Второй аргумент не является вектором')
+        else:
+            if second_vector.len != self.len:
+                raise ValueError('Длины векторов не равны')
+            else:
+                second_vector = second_vector.numpy_repr
+
+            results = []
+
+            for i, j in zip(self.__data, second_vector):
+                results.append(i / j)
+
+            if len(set(results)) == 1:
+                return True
+
+            return False
+
+    def is_ortog(self, second_vector):
+        if self.scalar_mul(second_vector) == 0:
+            return True
+
+        return False
 
 
 class Matrix(np.matrix):
