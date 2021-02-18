@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 import numpy as np
+from math import (sin, cos,
+                  tan, atan,
+                  acos, asin)
 
 
 class Vector:
@@ -17,6 +20,8 @@ class Vector:
 
         if isinstance(other, int) or isinstance(other, float):
             return Vector(self.__data * other)
+        elif isinstance(other, Scalar):
+            return Vector(self.__data * other.val)
         elif isinstance(other, Vector):
             if len(other.numpy_repr) != self.len:
                 raise ValueError('Не совпадает длина векторов')
@@ -77,7 +82,7 @@ class Vector:
                     )
                 )
 
-    def scalar_mul(self, other):
+    def scalar_mul(self, other) -> np.int64:
         '''
         Скалярное умножение векторов
         '''
@@ -100,7 +105,7 @@ class Vector:
             else:
                 return Vector(np.cross(self.__data, other.numpy_repr))
 
-    def is_collen(self, second_vector):
+    def is_collen(self, second_vector) -> bool:
         if not isinstance(second_vector, Vector):
             raise TypeError('Второй аргумент не является вектором')
         else:
@@ -119,7 +124,7 @@ class Vector:
 
             return False
 
-    def is_ortog(self, second_vector):
+    def is_ortog(self, second_vector) -> bool:
         if self.scalar_mul(second_vector) == 0:
             return True
 
@@ -127,6 +132,14 @@ class Vector:
 
 
 class Matrix(np.matrix):
+    def __mul__(self, other):
+        if isinstance(other, Scalar):
+            return Matrix(
+                self.A.dot(other.val)
+            )
+        else:
+            return self.A * other
+
     @property
     def reverse(self):
         """
@@ -139,7 +152,7 @@ class Matrix(np.matrix):
         return Matrix(np.linalg.inv(self.A))
 
     @property
-    def trace(self):
+    def trace(self) -> np.int64:
         '''
         След матрицы
         '''
@@ -182,6 +195,10 @@ class Scalar:
         return str(self.__data)
 
     @property
+    def val(self):
+        return self.__data
+
+    @property
     def reverse(self):
         '''
         Обратное
@@ -189,22 +206,58 @@ class Scalar:
 
         return Scalar(-self.__data)
 
-    def mod(self, m):
+    @property
+    def sin(self):
+        return Scalar(
+            sin(self.__data)
+        )
+
+    @property
+    def cos(self):
+        return Scalar(
+            cos(self.__data)
+        )
+
+    @property
+    def tan(self):
+        return Scalar(
+            tan(self.__data)
+        )
+
+    @property
+    def atan(self):
+        return Scalar(
+            atan(self.__data)
+        )
+
+    @property
+    def asin(self):
+        return Scalar(
+            asin(self.__data)
+        )
+
+    @property
+    def acos(self):
+        return Scalar(
+            acos(self.__data)
+        )
+
+    def mod(self, other):
         '''
         Возведение в степень
         '''
 
         return Scalar(
-            self.__data ** m
+            self.__data ** other
         )
 
-    def sqrt(self, m):
+    def sqrt(self, other):
         '''
         Извлечение корня
         '''
 
         return Scalar(
-            self.__data ** (1 / m)
+            self.__data ** (1 / other)
         )
 
 
@@ -213,11 +266,11 @@ if __name__ == '__main__':
     s = Matrix([[1, 2], [4, 5], [3, 6]])
     obr_matr = Matrix([[1, 2], [3, 4]])
     vec = Vector([1, 2, 3])
-    sc = Scalar(64)
+    sc = Scalar(2)
     sc_f = Scalar(2.0)
 
     # matrix on scalar
-    # print(f * 2)
+    # print(f * sc)
 
     # sum matrix
     # матрицы должны быть одинаковы по размеру
