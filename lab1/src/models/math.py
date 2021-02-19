@@ -162,7 +162,7 @@ class Matrix(np.matrix):
         '''
 
         return np.linalg.det(self.A)
-    
+
     def mul_by_element(self, matrix):
         '''
         Поэлементное произведение матрицы на матрицу

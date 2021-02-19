@@ -171,7 +171,7 @@ if __name__ == '__main__':
         action='store_true',
         help='Умножение матрицы на вектор',
         dest='mat_on_vec')
-    
+
     args = parser.parse_args()
 
     ########################
@@ -236,7 +236,7 @@ if __name__ == '__main__':
         matrix = input(
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
-        
+
         print(
             Matrix(
                 parse_matrix(matrix)
@@ -248,36 +248,36 @@ if __name__ == '__main__':
         matrix = input(
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
-        
+
         print(
             Matrix(
                 parse_matrix(matrix)
             ).trace
-        )    
+        )
 
     # Обратная матрица
     elif getattr(args, 'mat_reverse', False):
         matrix = input(
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
-        
+
         print(
             Matrix(
                 parse_matrix(matrix)
             ).reverse
-        )    
+        )
 
     # Транспонирование матрицы
     elif getattr(args, 'mat_transp', False):
         matrix = input(
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
-        
+
         print(
             Matrix(
                 parse_matrix(matrix)
             ).T
-        )    
+        )
 
     # Умножение матрицы на скаляр
     elif getattr(args, 'mat_on_scal', False):
@@ -310,7 +310,7 @@ if __name__ == '__main__':
                 )
             )
         )
-    
+
     ########################
     #       Вектора
     #######################
@@ -493,41 +493,3 @@ if __name__ == '__main__':
 
     else:
         parser.print_help_and_exit()
-
-    #f = Matrix([[1, 2, 3], [4, 5, 6]])
-    #s = Matrix([[1, 2], [4, 5], [3, 6]])
-    #obr_matr = Matrix([[1, 2], [3, 4]])
-    #vec = Vector([1, 2, 3])
-    #sc = Scalar(2)
-    #sc_f = Scalar(2.0)
-
-    # matrix on scalar
-    # print(f * sc)
-
-    # sum matrix
-    # матрицы должны быть одинаковы по размеру
-    # print(f + f)
-
-    # поэлементное умножение
-    # print(f.mul_by_element(f))
-
-    # mul matrix on vector
-    # когда число столбцов матрицы равно числу строк вектора
-    # print(f.mul_on_vector(vec))
-
-    # mul
-    # число столбцов матрицы А равно числу строк матрицы В
-    # print(f * s)
-
-    # след
-    # print(f.trace)
-
-    # обратная матрица
-    # должна быть квадратной
-    # try:
-    #     print(obr_matr.reverse)
-    # except numpy.linalg.LinAlgError:
-    #     print('Нельзя сделать обратную')
-
-    # транспонирование
-    # print(f.T)
