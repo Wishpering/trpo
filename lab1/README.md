@@ -25,4 +25,11 @@ lab1
 └───src
 │   │   main.py
 │   │   requirements.txt
+│   └───models
+│   │   │   __init__.py
+│   │ 	│   math.py	 - описание математических примитивов
+│   └───utils
+│       │   __init__.py
+│       │   argparser.py - парсер входных аргументов
+│       │   input.py     - обработка входных данных
 ```
