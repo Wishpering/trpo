@@ -1,10 +1,14 @@
-import numpy as np
+from numpy import (array, int64,
+                   dot, cross,
+                   matrix, trace,
+                   multiply)
+from numpy.linalg import norm, inv, det
 from math import sin, cos, tan
 
 
 class Vector:
     def __init__(self, data: list) -> None:
-        self.__data = np.array(data)
+        self.__data = array(data)
 
     def __str__(self) -> str:
         return str(self.__data)
@@ -38,7 +42,7 @@ class Vector:
                 return Vector(self.__data + other.numpy_repr)
 
     @property
-    def numpy_repr(self) -> np.array:
+    def numpy_repr(self) -> array:
         '''
         Представление вектора в качестве <<NumPy.array>>
         '''
@@ -59,7 +63,7 @@ class Vector:
         Длина вектора
         '''
 
-        return np.linalg.norm(self.__data)
+        return norm(self.__data)
 
     def mul_on_matrix(self, matrix):
         '''
@@ -78,7 +82,7 @@ class Vector:
                     )
                 )
 
-    def scalar_mul(self, other) -> np.int64:
+    def scalar_mul(self, other) -> int64:
         '''
         Скалярное умножение векторов
         '''
@@ -86,7 +90,7 @@ class Vector:
         if not isinstance(other, Vector):
             raise TypeError('Второй аргумент не является вектором')
         else:
-            return np.dot(self.__data, other.numpy_repr)
+            return dot(self.__data, other.numpy_repr)
 
     def vec_mul(self, other):
         '''
@@ -99,7 +103,7 @@ class Vector:
             if self.len < 3 or other.len < 3:
                 raise ValueError('Вектор не является трехмерным')
             else:
-                return Vector(np.cross(self.__data, other.numpy_repr))
+                return Vector(cross(self.__data, other.numpy_repr))
 
     def is_collen(self, second_vector) -> bool:
         if not isinstance(second_vector, Vector):
@@ -127,7 +131,7 @@ class Vector:
         return False
 
 
-class Matrix(np.matrix):
+class Matrix(matrix):
     def __mul__(self, other):
         if isinstance(other, Scalar):
             return Matrix(
@@ -145,15 +149,15 @@ class Matrix(np.matrix):
         то возвращает исключение <<numpy.linalg.LinAlgError>>
         """
 
-        return Matrix(np.linalg.inv(self.A))
+        return Matrix(inv(self.A))
 
     @property
-    def trace(self) -> np.int64:
+    def trace(self) -> int64:
         '''
         След матрицы
         '''
 
-        return np.trace(self.A)
+        return trace(self.A)
 
     @property
     def det(self):
@@ -161,7 +165,7 @@ class Matrix(np.matrix):
         Определитель матрицы
         '''
 
-        return np.linalg.det(self.A)
+        return det(self.A)
 
     def mul_by_element(self, matrix):
         '''
@@ -171,7 +175,7 @@ class Matrix(np.matrix):
         if not isinstance(matrix, Matrix):
             raise TypeError('Вторая аргумент не является NumPy матрицой')
         else:
-            return Matrix(np.multiply(self.A, matrix.A))
+            return Matrix(multiply(self.A, matrix.A))
 
     def mul_on_vector(self, vector):
         '''

@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from numpy.linalg import LinAlgError
+
 from models.math import Scalar, Vector, Matrix
 from utils.argparser import ModifiedArgumentParser
 from utils.input import parse_matrix
@@ -237,11 +239,14 @@ if __name__ == '__main__':
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
 
-        print(
-            Matrix(
-                parse_matrix(matrix)
-            ).det
-        )
+        try:
+            print(
+                Matrix(
+                    parse_matrix(matrix)
+                ).det
+            )
+        except LinAlgError:
+            parser.exit_with_error('Матрица должна быть квадратной')
 
     # След матрицы
     elif getattr(args, 'mat_trace', False):
@@ -261,11 +266,14 @@ if __name__ == '__main__':
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
 
-        print(
-            Matrix(
-                parse_matrix(matrix)
-            ).reverse
-        )
+        try:
+            print(
+                Matrix(
+                    parse_matrix(matrix)
+                ).reverse
+            )
+        except LinAlgError:
+            parser.exit_with_error('Матрица должна быть квадратной')
 
     # Транспонирование матрицы
     elif getattr(args, 'mat_transp', False):
