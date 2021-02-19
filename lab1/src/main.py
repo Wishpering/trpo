@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 
-from values.main import Scalar, Vector, Matrix
+from models.math import Scalar, Vector, Matrix
 from utils.argparser import ModifiedArgumentParser
+from utils.input import parse_matrix
 
 if __name__ == '__main__':
     parser = ModifiedArgumentParser(prog='Lab1 for TRPO')
-    subparsers = parser.add_subparsers(help='sub-command help')
+    subparsers = parser.add_subparsers(
+        help='Операции над различными примитивами')
 
     scalar_operations = subparsers.add_parser(
         'scalar', help='Операции над скалярами')
@@ -117,15 +119,204 @@ if __name__ == '__main__':
 
     matrix_operations = subparsers.add_parser(
         'matrix', help='Операции над матрицами')
+    matrix_operations.add_argument(
+        '-s',
+        '--sum',
+        action='store_true',
+        help='Поэлементное сложение',
+        dest='mat_sum')
+    matrix_operations.add_argument(
+        '-m',
+        '--mul',
+        action='store_true',
+        help='Поэлементное умножение',
+        dest='mat_mul')
+    matrix_operations.add_argument(
+        '-mp',
+        '--mat_mul',
+        action='store_true',
+        help='Матричное произведение',
+        dest='mat_matmul')
+    matrix_operations.add_argument(
+        '-d',
+        '--det',
+        action='store_true',
+        help='Определитель матрицы',
+        dest='mat_det')
+    matrix_operations.add_argument(
+        '-r',
+        '--reverse',
+        action='store_true',
+        help='Обратная матрицы',
+        dest='mat_reverse')
+    matrix_operations.add_argument(
+        '-t',
+        '--transp',
+        action='store_true',
+        help='Транспонирование матрицы',
+        dest='mat_transp')
+
+    matrix_operations.add_argument(
+        '--trace',
+        action='store_true',
+        help='След матрицы',
+        dest='mat_trace')
+    matrix_operations.add_argument(
+        '--mul_scal',
+        action='store_true',
+        help='Умножение матрицы на скаляр',
+        dest='mat_on_scal')
+    matrix_operations.add_argument(
+        '--mul_vector',
+        action='store_true',
+        help='Умножение матрицы на вектор',
+        dest='mat_on_vec')
     
     args = parser.parse_args()
-            
+
+    ########################
+    #       Матрицы
+    #######################
+
+    # Поэлементное сложение
+    if getattr(args, 'mat_sum', False):
+        first_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        second_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+
+        print(
+            Matrix(
+                parse_matrix(first_matrix)
+            ) + Matrix(
+                parse_matrix(second_matrix)
+            )
+        )
+
+    # Поэлементное умножение
+    elif getattr(args, 'mat_mul', False):
+        first_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        second_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+
+        print(
+            Matrix(
+                parse_matrix(first_matrix)
+            ).mul_by_element(
+                Matrix(
+                    parse_matrix(second_matrix)
+                )
+            )
+        )
+
+    # Матричное произведение
+    elif getattr(args, 'mat_matmul', False):
+        first_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        second_matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+
+        print(
+            Matrix(
+                parse_matrix(first_matrix)
+            ) * Matrix(
+                parse_matrix(second_matrix)
+            )
+        )
+
+    # Определитель матрицы
+    elif getattr(args, 'mat_det', False):
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        
+        print(
+            Matrix(
+                parse_matrix(matrix)
+            ).det
+        )
+
+    # След матрицы
+    elif getattr(args, 'mat_trace', False):
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        
+        print(
+            Matrix(
+                parse_matrix(matrix)
+            ).trace
+        )    
+
+    # Обратная матрица
+    elif getattr(args, 'mat_reverse', False):
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        
+        print(
+            Matrix(
+                parse_matrix(matrix)
+            ).reverse
+        )    
+
+    # Транспонирование матрицы
+    elif getattr(args, 'mat_transp', False):
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+        
+        print(
+            Matrix(
+                parse_matrix(matrix)
+            ).T
+        )    
+
+    # Умножение матрицы на скаляр
+    elif getattr(args, 'mat_on_scal', False):
+        scal = float(input('Введите скаляр:\n'))
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
+        )
+
+        print(
+            Matrix(
+                parse_matrix(matrix)
+            ) * Scalar(scal)
+        )
+
+    # Умножение матрицы на вектор
+    elif getattr(args, 'mat_on_vec', False):
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n')
+        vector = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+
+        print(
+            Matrix(
+                parse_matrix(
+                    matrix
+                )
+            ).mul_on_vector(
+                Vector(
+                    [float(i) for i in vector.split(',')]
+                )
+            )
+        )
+    
     ########################
     #       Вектора
     #######################
-    
+
     # Умножение вектора на скаляр
-    if getattr(args, 'vec_on_scal', False):
+    elif getattr(args, 'vec_on_scal', False):
         vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
         scal = float(input('Введите скаляр:\n'))
 
@@ -137,9 +328,11 @@ if __name__ == '__main__':
 
     # Поэлементное сложение векторов
     elif getattr(args, 'vec_sum', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
-        
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
+
         print(
             Vector([float(i) for i in first_vec.split(',')]) +
             Vector([float(i) for i in second_vec.split(',')])
@@ -147,8 +340,10 @@ if __name__ == '__main__':
 
     # Поэлементное умножение векторов
     elif getattr(args, 'vec_mul', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
 
         print(
             Vector([float(i) for i in first_vec.split(',')]) *
@@ -157,8 +352,10 @@ if __name__ == '__main__':
 
     # Скалярное произведение векторов
     elif getattr(args, 'vec_scal', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
 
         print(
             Vector(
@@ -170,8 +367,10 @@ if __name__ == '__main__':
 
     # Векторное произведение трехмерных векторов
     elif getattr(args, 'vec_vecmul', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
 
         try:
             print(
@@ -186,7 +385,8 @@ if __name__ == '__main__':
 
     # Длина вектора
     elif getattr(args, 'vec_len', False):
-        vector = input('Введите первый вектор, элементы вводятся через запятую:\n')
+        vector = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
 
         print(
             Vector(
@@ -196,9 +396,11 @@ if __name__ == '__main__':
 
     # Проверка сонаправленности векторов
     elif getattr(args, 'vec_cocheck', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
-        
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
+
         print(
             Vector(
                 [float(i) for i in first_vec.split(',')]
@@ -209,8 +411,10 @@ if __name__ == '__main__':
 
     # Проверка векторов на ортогональность
     elif getattr(args, 'vec_is_ortog', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        second_vec = input('Введите второй вектор, элементы вводятся через запятую:\n')
+        first_vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        second_vec = input(
+            'Введите второй вектор, элементы вводятся через запятую:\n')
 
         print(
             Vector(
@@ -222,28 +426,20 @@ if __name__ == '__main__':
 
     # Умножение вектора на матрицу
     elif getattr(args, 'vec_on_matr', False):
-        first_vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
-        input_matrix = input('Введите матрицу, столбцы разделяются через ;, элементы - ,:\n')
-
-        matrix = []
-        tmp = []
-
-        for i in input_matrix:
-            if i != ',' and i != ';':
-                tmp.append(float(i))
-
-            if i == ';':
-                matrix.append(tmp)
-                tmp = []
-
-        if len(tmp) != 0:
-            matrix.append(tmp)
+        vector = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
+        matrix = input(
+            'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n')
 
         print(
             Vector(
-                [float(i) for i in first_vec.split(',')]
+                [float(i) for i in vector.split(',')]
             ).mul_on_matrix(
-                Matrix(matrix)
+                Matrix(
+                    parse_matrix(
+                        matrix
+                    )
+                )
             )
         )
 
@@ -297,7 +493,7 @@ if __name__ == '__main__':
 
     else:
         parser.print_help_and_exit()
-        
+
     #f = Matrix([[1, 2, 3], [4, 5, 6]])
     #s = Matrix([[1, 2], [4, 5], [3, 6]])
     #obr_matr = Matrix([[1, 2], [3, 4]])

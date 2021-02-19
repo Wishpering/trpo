@@ -1,6 +1,7 @@
 import numpy as np
 from math import sin, cos, tan
 
+
 class Vector:
     def __init__(self, data: list) -> None:
         self.__data = np.array(data)
@@ -154,6 +155,14 @@ class Matrix(np.matrix):
 
         return np.trace(self.A)
 
+    @property
+    def det(self):
+        '''
+        Определитель матрицы
+        '''
+
+        return np.linalg.det(self.A)
+    
     def mul_by_element(self, matrix):
         '''
         Поэлементное произведение матрицы на матрицу
@@ -176,8 +185,8 @@ class Matrix(np.matrix):
                 raise ValueError('Не совпадает длина')
             else:
                 return Matrix(
-                    f.dot(
-                        vec.numpy_repr
+                    self.A.dot(
+                        vector.numpy_repr
                     )
                 )
 

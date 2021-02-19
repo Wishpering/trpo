@@ -1,6 +1,7 @@
 from argparse import ArgumentParser, Namespace
 from sys import stderr
 
+
 class ModifiedArgumentParser(ArgumentParser):
     def exit_with_error(self, error_text):
         print(error_text, file=stderr)
