@@ -1,0 +1,122 @@
+% TeX шаблон, пример оформления отчёта по лабораторной работе.
+% Автор: Шмаков И.А.
+% Версия от: 05 ноября 2018 года.
+% Сборка документа из командной строки:
+% ~$ pdflatex -shell-escape main.tex
+
+\documentclass[a4paper,14pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+
+% одинарный интервал
+\usepackage{setspace}
+\singlespacing 
+
+\usepackage[left=3cm, right=1cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+\usepackage{indentfirst} % Красная строка.
+
+% для гиперссылок и выделение их цветом
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+ % Цвета для гиперссылок
+\definecolor{linkcolor}{HTML}{000000} % цвет ссылок
+\definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor, urlcolor=urlcolor, colorlinks=true}
+
+% Пакет отвечающий за листинги.
+\usepackage[outputdir=build]{minted} 
+\renewcommand\listingscaption{Листин}
+
+% Фикс "red box" в minted 
+\usemintedstyle{xcode}
+
+% Подключение графики
+\usepackage{graphicx}
+\usepackage{float}
+\DeclareGraphicsExtensions{.png}
+
+\renewcommand{\thesection}{\arabic{section}}
+
+\begin{document}
+\begin{titlepage}
+  \begin{center}
+    \MakeUppercase{Министерство науки и высшего образования Российской Федерации} \\
+    \MakeUppercase{ФГБОУ ВО Алтайский государственный университет}
+    \vspace{0.25cm}
+    
+    Физико-технический факультет
+    
+    Кафедра вычислительной техники и электроники
+    \vfill
+    
+    \textsc{Отчёт по лабораторной работе №1 по курсу \\ <<Практикум по ТРПО>>}
+  \bigskip
+
+\end{center}
+\vfill
+
+\newlength{\ML}
+\settowidth{\ML}{«\underline{\hspace{0.6cm}}» \underline{\hspace{2cm}}}
+\hfill\begin{minipage}{0.5\textwidth}
+  Выполнил студент 4-го курса, \\ 576 группы:\\
+  \underline{\hspace{\ML}} В.\,Е.~Щербаков\\
+  «\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} \the\year~г.
+\end{minipage}%
+\bigskip
+
+\settowidth{\ML}{«\underline{\hspace{0.6cm}}» \underline{\hspace{2cm}}}
+\hfill\begin{minipage}{0.5\textwidth}
+  Проверил\\
+  \underline{\hspace{\ML}} П.\,Н.~Уланов\\
+  «\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} \the\year~г.
+\end{minipage}%
+\vfill
+
+\begin{center}
+  Барнаул, \the\year~г.
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Введение и постановка задачи}
+
+
+\section{Теоретическое описание задачи}
+
+
+\section{Алгоритм и блок-схема}
+
+
+\section{Проверка работы программы}
+
+
+\addcontentsline{toc}{section}{Выводы по работе}
+\section*{Выводы по работе}
+
+\newpage
+
+\addcontentsline{toc}{section}{Приложение}
+\section*{Приложение}
+\subsection*{Листинг main.py}
+\addcontentsline{toc}{subsubsection}{Листинг main.py}
+\inputminted[mathescape,linenos,breaklines]{python}{../src/main.py}
+
+\subsection*{Листинг math.py}
+\addcontentsline{toc}{subsubsection}{Листинг math.py}
+\inputminted[mathescape,linenos,breaklines]{python}{../src/models/math.py}
+
+\subsection*{Листинг argparser.py}
+\addcontentsline{toc}{subsubsection}{Листинг argparser.py}
+\inputminted[mathescape,linenos,breaklines]{python}{../src/utils/argparser.py}
+
+\subsection*{Листинг input.py}
+\addcontentsline{toc}{subsubsection}{Листинг input.py}
+\inputminted[mathescape,linenos,breaklines]{python}{../src/utils/input.py}
+
+\end{document}          
