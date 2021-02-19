@@ -325,8 +325,9 @@ if __name__ == '__main__':
 
     # Умножение вектора на скаляр
     elif getattr(args, 'vec_on_scal', False):
-        vec = input('Введите первый вектор, элементы вводятся через запятую:\n')
         scal = float(input('Введите скаляр:\n'))
+        vec = input(
+            'Введите первый вектор, элементы вводятся через запятую:\n')
 
         result = Vector(
             [float(i) for i in vec.split(',')]
