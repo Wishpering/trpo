@@ -225,13 +225,17 @@ if __name__ == '__main__':
             'Введите матрицу, столбцы разделяются через ;, элементы - ,:\n'
         )
 
-        print(
-            Matrix(
-                parse_matrix(first_matrix)
-            ) * Matrix(
-                parse_matrix(second_matrix)
+        try:
+            print(
+                Matrix(
+                    parse_matrix(first_matrix)
+                ) * Matrix(
+                    parse_matrix(second_matrix)
+                )
             )
-        )
+        except ValueError:
+            parser.exit_with_error(
+                'Число столбцов первой матрицы не равно числу строк второй матрицы')
 
     # Определитель матрицы
     elif getattr(args, 'mat_det', False):
