@@ -110,17 +110,49 @@ S_{kvad} = r^2
 Блок-схема программы:	
 \begin{figure}[H]
 	\centering
-	\includegraphics[page=1, width=0.6\textwidth]{include/diag.pdf}
+	\includegraphics[page=1, width=0.6\textwidth]{include/block_scheme.pdf}
 	\caption{Блок-схема программы}
 \end{figure}
 
 \newpage
 
 \section{Проверка работы программы}
-\newpage
+Для проверки работы программы напишем простой Makefile, дабы облегчить себе задачу, его код приведен ниже в приложении \ref{makefile}
+
+Все нижеприведенные вычисления были произведены на процессоре Ryzen 3700x@4.2 GHz, при использовании OpenMPI были задействованы все 16 потоков.
+
+\begin{minted}{bash}
+g++ -O3 -march=native serial.cpp -o lab3_serial
+g++ -O3 -march=native -fopenmp parallel.cpp -o lab3_parallel
+Benching serial code...
+Примерно равно: 3.14251
+
+real    0m16,557s
+user    0m16,552s
+sys     0m0,000s
+Benching parallel code...
+Примерно равно: 3.13259
+
+real    0m19,063s
+user    4m36,851s
+sys     0m0,000s
+\end{minted}
+
+Как мы видим, распараллеливание алгоритма через OpenMPI не дало должного прироста производительности.
 
 \addcontentsline{toc}{section}{Приложение}
 \section*{Приложение}
-\inputminted[mathescape,linenos,breaklines]{c++}{../src/main.cpp}
 
+\subsection*{Листинг serial.cpp}
+\addcontentsline{toc}{subsubsection}{Листинг serial.cpp}
+\inputminted[mathescape,linenos,breaklines]{c++}{../src/serial.cpp}
+
+\subsection*{Листинг parallel.cpp}
+\addcontentsline{toc}{subsubsection}{Листинг parallel.cpp}
+\inputminted[mathescape,linenos,breaklines]{c++}{../src/parallel.cpp}
+
+\subsection*{Листинг Makefile}
+\label{makefile}
+\addcontentsline{toc}{subsubsection}{Листинг Makefile}
+\inputminted[mathescape,linenos,breaklines]{make}{../src/Makefile}
 \end{document}          
