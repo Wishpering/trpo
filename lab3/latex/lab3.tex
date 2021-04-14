@@ -125,20 +125,21 @@ S_{kvad} = r^2
 g++ -O3 -march=native serial.cpp -o lab3_serial
 g++ -O3 -march=native -fopenmp parallel.cpp -o lab3_parallel
 Benching serial code...
-Примерно равно: 3.14251
+Примерно равно: 3.14261
 
-real    0m16,557s
-user    0m16,552s
+real    0m16,602s
+user    0m16,590s
 sys     0m0,000s
 Benching parallel code...
-Примерно равно: 3.13259
+Примерно равно: 3.14259
 
-real    0m19,063s
-user    4m36,851s
-sys     0m0,000s
+real    0m1,894s
+user    0m24,843s
+sys     0m0,023s
+
 \end{minted}
 
-Как мы видим, распараллеливание алгоритма через OpenMPI не дало должного прироста производительности.
+Как мы видим, распараллеливание алгоритма через OpenMPI дало серьезный прирост производительности.
 
 \addcontentsline{toc}{section}{Приложение}
 \section*{Приложение}
