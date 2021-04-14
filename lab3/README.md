@@ -14,7 +14,7 @@ make bench
 ## Структура
 
 ```
-lab1
+lab3
 │
 └───latex  
 │   │   lab3.tex

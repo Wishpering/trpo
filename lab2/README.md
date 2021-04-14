@@ -14,7 +14,7 @@ make
 ## Структура
 
 ```
-lab1
+lab2
 │
 └───latex  
 │   │   lab2.tex
