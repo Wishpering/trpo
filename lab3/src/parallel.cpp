@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
-#include <random>
 #include <omp.h>
+#include <random>
 
-double rand_point(double low, double high) {
+float randFloat(double low, double high) {
     thread_local static std::random_device rd;
     thread_local static std::mt19937 rng(rd());
     thread_local std::uniform_real_distribution<double> urd;
@@ -13,22 +13,21 @@ double rand_point(double low, double high) {
 int main() {
   const size_t iteration_count = pow(10, 9),
     R = 4000;
-
-  uint16_t register X, Y;
   
-  static size_t iteration_num = 0,
-    omp_iter_num;
-  
+  size_t iteration_num = 0;
+  uint64_t register X, Y;
+  double chetcik;
+      
   omp_set_num_threads(16);
   omp_set_dynamic(true);
   
-  #pragma omp parallel for private(iteration_num, X, Y) reduction(+ : omp_iter_num)
+  #pragma omp parallel for private(iteration_num, X, Y) reduction(+ : chetcik)
   for (iteration_num = 0; iteration_num < iteration_count; iteration_num++) {    
-    X = rand_point(0, R);
-    Y = rand_point(0, R);
+    X = randFloat(0, R);
+    Y = randFloat(0, R);
       
-    if ((X * X + Y * Y) <= R * R) omp_iter_num++;
+    if ((X * X + Y * Y) <= R * R) chetcik++;
   }
 
-  std::cout << "Примерно равно: " << 4 * (omp_iter_num / iteration_count) << std::endl;
+  std::cout << "Примерно равно: " << 4 * (chetcik / iteration_count) << std::endl;
 }
